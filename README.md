@@ -29,6 +29,8 @@ Placa de rede: Gigabit<br>
 
 Para baixar a `.iso` vamos para o site oficial da Microsoft que fica neste link https://www.microsoft.com/pt-br/evalcenter/download-windows-server-2016 e lá vamos baixar a versão em Inglês de 64 bits
 
+> :warning: essa versão que vou usar é apenas de teste, sendo possivel utilizar por apenas 180 dias gratuito, caso queira implementar como servidor de produção recomenda-se comprar uma licença oficial.
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fc557443-4024-4188-8260-5379908f9401)
 
 
@@ -42,10 +44,88 @@ Irá abrir uma janela como essa, e nela você colocará o nome da sua maquina vi
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9caaaa7c-286e-4773-b42e-1264b737af63)
 
+Agora vamos configurar o hardware da nossa maquina virtual, essa parte é muito relativa ao hardware que você tem, o recomendado é que se utilize menos da metade da capacidade do seu computador, tanto em **CPU** quanto em menmória **RAM**. Depois é só clicar em  **Próximo**
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a3650ea4-bef7-42f7-b215-d60a98c32266)
+
+Essa parte irei colocar **30GB** de disco para ser usado pela maquina vitual, e conforme o espaço que você tiver disponível pode colocar mais ou menos, porém não deixe menos que **25GB** pois pode não ser sufuciente. Após isso é só clicar em  **Próximo**
+
+> :warning: Recomendado colocar acima de **30GB**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c1faa25c-c74f-4b4c-83fd-c356e91e580c)
 
+Aqui é um resumo das configurações, aperte em **Finalizar**
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ac144bdf-7167-479a-be7d-7781aa3abc66)
 
-![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fd570ade-4517-4892-bdc7-f6f0ff7f319f)
+## Instalando Windows
+
+Antes de iniciamos desativar a rede durante a instalação para que a instalação seja mais rápida, pois caso contrario iria ser feito varios downloads e atualizações durante a instalação.
+
+Para isso vamos em **Configurações**.
+
+![Captura de tela de 2023-03-21 22-27-36](https://user-images.githubusercontent.com/70353348/226778223-c8cae63f-ea78-4bcf-9bee-0013e31c2b6b.png)
+
+Depois selecione **Rede**, na janela de rede em **Conectado a**, selecione a opção **Placa em modo bridge** (*isso fará o computador virtual pegar o ip da sua rede real, dessa forma tornando possivel conectarmos ao servidor mais tarde*) e na opção avançado desmarque a caixinha de **Cabo conectado** (*isso fará nossa instalação ser mais rápida, pois não irá baixar atualizações durante a instalação o que pode causar demora*). 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/d1505a31-e071-4cd8-bace-e8eb2b0ec013)
+
+Nesse momento é só apertar na setinha verde **Iniciar** para ligar a maquina virtual.
+
+![Captura de tela de 2023-03-21 22-27-36](https://user-images.githubusercontent.com/70353348/226778223-c8cae63f-ea78-4bcf-9bee-0013e31c2b6b.png)
+
+Aguarde o sistema iniciar
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/16dff1ef-ffc7-408c-b4ad-bdf2b1eed065)
+
+Aqui você pode apertar em **Next**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b0fac10d-88e2-46f3-922f-0ef7e51a6408)
+
+Clique em **Install now**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fedfab6f-626e-45f1-a3bc-a001d2fc2554)
+
+Aqui vamos selecionar a versão do nosso Windows que será a **2016 Standard Evaluation (Desktop Experience)** que no caso é a segunda opção. Aperte **Next**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/87bc96cd-71df-45b8-90c8-e1a943476d79)
+
+Vamos aceitar os termos e apertar em **Next**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/e8a004cb-df79-4213-90f8-2054c7739332)
+
+Agora vamos selecionar a segunda opção, que é a instalação customizada.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/df9e663f-4963-43d9-8253-a4baffc1c89d)
+
+Vamos selecionar o disco e apertar em **Next** 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b19a8075-6523-4edc-8654-8798c28a014c)
+
+Após isso vamos aguardar a instalação ser finalizada.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2e8f014a-2ee5-4d57-9838-90ee9d18aaac)
+
+Após finalizar essa etapa o sistema será reiniciado automáticamente
+
+---
+
+Depois de reiniciar será pedido que você crie uma senha para o servidor, e após criada é só apertar em **Finish** 
+
+> :warning: A senha nessecita ter letras **maiúsculas**, **minúsculas** e **números**!
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0ac3c16a-cc88-4250-955a-994fd4f671ed)
+
+Agora podemos entrar no nosso servidor, para aparecer a tela de senha basta precionar **Ctrl + Alt + Delete**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6f8b4885-6339-4f89-bc28-16ed1adea6f2)
+
+Caso você tenha o mesmo problema que eu tive que mesmo precionando as teclas não funcionava você pode usar um teclado virtual para precionar esse botões, é só ir em **Entrada** depois **Teclado** e depois em **Teclado de Tela**.
+
+![gif](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/56359612-4a4c-431f-a403-f63a2422f028)
+
+## Configurações 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/dc483aa5-e564-4af8-8bc9-41b2598e0230)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/149672ab-9e6a-432b-a3cd-915bc5c5b66c)
