@@ -112,7 +112,7 @@ Após finalizar essa etapa o sistema será reiniciado automáticamente
 
 Depois de reiniciar será pedido que você crie uma senha para o servidor, e após criada é só apertar em **Finish** 
 
-> :warning: A senha nessecita ter letras **maiúsculas**, **minúsculas** e **números**!
+> :warning: A senha necessita ter letras **maiúsculas**, **minúsculas** e **números**!
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0ac3c16a-cc88-4250-955a-994fd4f671ed)
 
