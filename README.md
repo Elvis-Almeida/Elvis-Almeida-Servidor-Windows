@@ -167,5 +167,6 @@ O **Tools**  é onde fica as configurações de todas as funções adicionadas n
 # Configurações iniciais 
 
 
+a
 
 
