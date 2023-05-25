@@ -124,8 +124,48 @@ Caso você tenha o mesmo problema que eu tive que mesmo precionando as teclas n�
 
 ![gif](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/56359612-4a4c-431f-a403-f63a2422f028)
 
-## Configurações 
+# Visão Geral
+
+Após instalar nosso servidor temos essa tela inicial
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/dc483aa5-e564-4af8-8bc9-41b2598e0230)
 
+Agora vamos abrir o programa **Server Manager** (*que é o uma ferramenta de gerenciamento do servidor feito para facilitar a administração e o monitoramento*), caso esse programa já não tenha aberto automaticamente.
+
+> :warnig: Para abrir qual quer programa que eu mensionar você pode ir na lupa na barra inferior e logo após escrever o nome do programa.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/31627595-3f8e-4ffb-8a62-24f35e1290d4)
+
+Essa é a pricipal tela que vamos usar durante toda nossa jornada onde temos no lado esquerdo temos **Dashboad**, **Local Server**, **All Servers** e o **File and Storage Services** que são:
+
+- Em **Dashboad** você pode ver o status geral do seu servidor de forma resumida.
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/149672ab-9e6a-432b-a3cd-915bc5c5b66c)
+
+- No **Local Server** é onde vemos todas as informações do servidor.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/eec62fe0-6881-4928-9635-50904022fbd0)
+
+- Em **All Servers** ira mostrar todos os servidores conectados (*sim, é possível gerenciar um servidor apartir do outro*)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9705a177-73f9-41b0-86b7-a55cf87dab79)
+
+- E em **File and Storage Services** é o serviço de compartilhamento de arquivo que já vem instalado no servidor, porém não é recomendado usar ele com a configuração que veio, vamos ajustar isso mais afrente. 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b3753a59-14e0-42fc-9f02-c2b12f73dc8a)
+
+No canto superior direito temos as opções **Maneger** e **Tools** onde:
+
+O **Maneger** é onde podemos adicionar ou remover funções e recursos, adicionar servidores, criar grupos de servidores e gerenciar as propriedades do servidor.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/78173dc3-afbf-4b67-bc0c-f43f2c5139d7)
+
+O **Tools**  é onde fica as configurações de todas as funções adicionadas no servidor.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/41532634-296e-431d-86ad-eb31beeb5e95)
+
+# Configurações iniciais 
+
+
+
+
