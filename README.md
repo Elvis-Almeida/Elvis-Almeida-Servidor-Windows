@@ -48,7 +48,7 @@ Agora vamos configurar o hardware da nossa maquina virtual, essa parte é muito 
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a3650ea4-bef7-42f7-b215-d60a98c32266)
 
-Essa parte irei colocar **30GB** de disco para ser usado pela maquina vitual, e conforme o espaço que você tiver disponível pode colocar mais ou menos, porém não deixe menos que **25GB** pois pode não ser sufuciente. Após isso é só clicar em  **Próximo**
+Essa parte irei colocar **30GB** de disco para ser usado pela maquina vitual, e conforme o espaço que você tiver disponível pode colocar mais, porém não deixe menos que **30GB** pois pode não ser sufuciente para o sistema dependendo que for intalar. Após isso é só clicar em  **Próximo**
 
 > :warning: Recomendado colocar acima de **30GB**
 
@@ -124,6 +124,11 @@ Caso você tenha o mesmo problema que eu tive que mesmo precionando as teclas n�
 
 ![gif](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/56359612-4a4c-431f-a403-f63a2422f028)
 
+Descobri outro metodo mais fácil para contornar esse problema, é só ir em **Entrada** depois **Teclado** e **Inserir Ctrl + Alt + Del**
+
+![Gravação-de-tela-de-27-05-2023-13_28_26](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b31072f9-7feb-484b-af41-b2fb4939b150)
+
+
 # Visão Geral
 
 Após instalar nosso servidor temos essa tela inicial
@@ -164,9 +169,133 @@ O **Tools**  é onde fica as configurações de todas as funções adicionadas n
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/41532634-296e-431d-86ad-eb31beeb5e95)
 
-# Configurações iniciais 
+## Atualizando
 
+Antes de tudo vamos atualizar nosso servidor, isso é extremamente importante pois deixar o windows desatualizado se torna-o vulneravel a ataques de invasores, dessa forma para atualizarmos vamos em **Windows Update**
 
-a
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2db53d01-af2c-4af0-b582-20acf3033efb)
 
+Agora vamos em **Check for updates**
 
+> :warning: Caso você esteje fazendo em uma maquina vitual apenas de teste como eu, atualize somente se você estiver alocado muito espaço em disco para seu windows caso contrário poderar encher a memoria e corromper a máquina.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/31d82866-0bec-47af-943e-d273e56c2c0b)
+
+Aguarde o tempo que for nessesário para atualizar tudo, recomenda-se tirar um dia só pra deixar ele atualizando.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ec6528ad-d15a-43cb-a461-75ad9251e8e5)
+
+> :warning: após atualizar o servidor reinicie!
+
+# Configurações iniciais
+
+## Configurando Nome
+
+Agora com tudo beleza vamos em **Local Server**, aqui será onde vamos fazer as primeiras configurações.
+
+Vamos inicialmente trocar o nome do servidor, para isso vamos clicar no nome do servidor.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/eec62fe0-6881-4928-9635-50904022fbd0)
+
+Depois clique em **Change**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6ac74677-7fc0-43f9-bb6e-0bc6f295ef7e)
+
+Aqui você escolhe o nome do servidor, escolher um bom nome para servidor é importante pois ajuda a identifica-lo na rede, assim para uma boa escolha de nome você pode seguir essas caracteristicas, como ser **descritivo** (*Um nome que reflita a finalidade ou função do servidor*), **conciso** (*Mantenha o nome curto e objetivo*) e **consistente** (*Mantenha uma convenção de nomenclatura consistente em toda a infraestrutura*). 
+
+No meu caso escolhi **SRVIFMAELVIS01** onde **SRV** significa Servidor, **IFMAELVIS** para dizer que é um servidor do ELVIS no IFMA e **01** para dizer que é o servidor numero 1, para caso exirem mais eles seram nomeados **02**, **03**.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/54a80cfe-9388-40ce-9b11-5b26315a8fdb)
+
+Após isso clique em **OK**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9837d45f-9c6f-4884-a102-b8decf1e69e4)
+
+Avisa que o computador precisa ser reiniciado para aplicar a alterações, aperte **OK**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/7072051b-ad47-42de-80e1-06479beca94c)
+
+E por fim aperte em **Restart Now** para reiniciar o servidor
+ 
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6623befa-025f-4bd8-8b6b-5901d78dcad1)
+
+## Configurando hora
+
+Agora vamos acertar a hora do servidor, apesar de não parecer importânte acertar a hora do servidor ela é de muita importância, pois todos os logs do sistema ficam registrado as horas isso afeta diretamente os registros de eventos e auditoria, e caso essas horas estejam erradas o servidor pode aprensentar erros de sincronização de eventos, além seus logs estaram todos com as horas erradas dificultando a resolução do problema, para que tais problemas não ocorra vamos arrumar a hora indo em **Time Zone**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1911bd1d-8434-4990-b328-3b6f88b55af2)
+
+Clique em **Change Time Zone**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/bafca343-c29f-41a5-ad88-3f68f2d72f28)
+
+Troque a zona para aonde seu servidor irá operar. no meu caso coloquei horário de Brasília e aperte **OK**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1e3b252c-4e3f-4e0d-aee3-ed0f6e557577)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b502e05e-26bf-4a88-bbbb-9b8229fdfbbc)
+
+Agora vamos em **Internet Time**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c1e5f446-b398-4732-a83b-0eb1020a57b8)
+
+Agora clique em **Changes settings**  
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4f6528f7-3b8f-45c6-850d-eb7dccb0b04c)
+
+E aqui vamos trocar o servidor do **time.windows.com** pelo **time.nist.gov** é recomendado fazer isso pois ele é operado pelo Instituto Nacional de Padrões e Tecnologia dos Estados Unidos (**NIST**) e oferece um serviço de tempo altamente preciso além de terem varios servidores espalhados pelo mundo e pela confiabilidade pois o **NIST** é uma instituição respeitada e confiável em relação a padrões de medição e tempo.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/069e5d94-912f-46a2-81c0-a91af0855153)
+
+Após isso aperte **Ok**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9d2cffe1-096d-498c-997f-3d348cfc268b)
+
+Aperte **Ok** novamente para fechar a janela
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ce29df9f-35c7-4af4-bc58-6c382c9dc8a9)
+
+## Configurando IP
+
+Agora vamos configurar o IP para isso vamos em **Ethernet**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5d732d3f-86e0-430b-8805-d1c3421a53e4)
+
+Clique com o botão direito do mouse encima da sua placa de rede que está usando e depois clique em **Properties**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c3fbfafe-b9f2-4a4f-8b5b-1b64a7609065)
+
+Procure por **IPV4** e depois clique em **Properties** novamente
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b46bad2e-e31b-474d-8381-1e5081d22508)
+
+Aqui selecione a 2º opção para colocar o ip manualmente, pois não queremos que o IP do servidor mude.
+
+A configuração que fiz no meu foi a sequinte: 
+
+```
+IP address: 192.168.43.227
+Subnet mask: 255.255.255.0
+Default Geteway: 192.168.43.1
+
+Preferred DNS server: 127.0.0.1
+Alternate DNS server: 1.1.1.1
+```
+
+O DNS principal sendo ele mesmo é para que não tenhamos problemas futuramente e como servidor secundo coloquei o 1.1.1.1 que é o servidor DNS da Cloundflare. Após isso aperte **OK**
+
+> :warning: O IP que você colocará em seu servidor será de acordo com a sua rede, no meu caso a minha rede é a **192.168.43.0/24** com o Gateway sendo o **192.168.43.1**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8eb52c19-86a1-4490-baa8-5d2fb33869ab)
+
+Aparecerá essa janela e é só aperta em **Yes**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a334ed75-4558-43eb-a52b-6a0f7eb5256b)
+
+Após isso temos nosso servidor pronto para recerber as primeiras funções.
+
+> :warning: Sempre verifique se o Windows Defender, Windows Firewall e o IE Enhenced Security Configuration estão ativos e verifique e atualize seu servidor sempre!
+
+> :warning: Nunca desative o Windows Defender e o Windows Firewall!
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/20cdfb80-f9d4-456c-9d78-493d79f32569)
