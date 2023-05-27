@@ -358,6 +358,3 @@ Vamos começar intalando a função ISS (*Internet Information Services*) que é
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4be61158-2ef7-4f55-be2d-83f7a5b6e129)
 
-![Video](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4bb98ff9-738c-435b-9c55-07b02375930c)
-
-![Video](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4031062f-f665-4f77-b1d5-295386c3476f)
