@@ -304,4 +304,46 @@ Após isso temos nosso servidor pronto para recerber as primeiras funções e re
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/20cdfb80-f9d4-456c-9d78-493d79f32569)
 
-# 
+# IIS e FTP
+
+Vamos começar intalando a função ISS (*Internet Information Services*) que é nosso serviço web 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c8166010-c855-4af5-a878-174b3ec266b6)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b0b3055c-ca87-44a2-a00c-41f6266b32f9)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f13af91a-d7b6-41e2-8937-48f4bb8959e9)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8bbea500-b22e-40b3-8cb2-0978dbde3eae)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c98e1bc3-99e5-4901-9821-ef7606036ff2)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/93d49c23-49a9-4b8c-b035-14511d8fe9f9)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9ef43b34-42c1-429f-afc3-333d231ff2ca)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5cdf1083-c40b-49dd-9dde-172d056f9451)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/279bf54f-3206-441a-86e7-b4f71a27123b)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3aec99a5-6a75-4dbf-a7aa-e8bbf39d7274)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/46b1bde2-0152-4f00-9335-7f1ec50d1348)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/bfb3285d-b117-493c-b975-0a694a38350a)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/557fb052-a82b-4c0a-bffc-3aa8f7d8a56e)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/757c2ff7-7c3d-463e-9767-686526acfd46)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1b57e2cf-fb15-48cf-b62c-a75251c3d72d)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5521b26c-1f88-453e-bf23-78d4990d4d3f)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a51dc52a-a076-4fea-91b9-e14f53b1204a)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/32c72af1-1b43-4de2-8430-be861dd57bb2)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5f202dcf-32dc-41ee-9a67-95af1f527652)
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/95228eb2-5279-47ba-ad13-1ed989ef0f7e)
