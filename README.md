@@ -112,6 +112,8 @@ Após finalizar essa etapa o sistema será reiniciado automáticamente
 
 Depois de reiniciar será pedido que você crie uma senha para o servidor, e após criada é só apertar em **Finish** 
 
+> :warning: É altamete recomendado que você cria uma **senha forte** para o seu servidor em produção! 
+
 > :warning: A senha necessita ter letras **maiúsculas**, **minúsculas** e **números**!
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0ac3c16a-cc88-4250-955a-994fd4f671ed)
@@ -141,13 +143,13 @@ Agora vamos abrir o programa **Server Manager** (*que é o uma ferramenta de ger
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/31627595-3f8e-4ffb-8a62-24f35e1290d4)
 
-Essa é a pricipal tela que vamos usar durante toda nossa jornada onde temos no lado esquerdo temos **Dashboad**, **Local Server**, **All Servers** e o **File and Storage Services** que são:
+Essa é a pricipal tela que vamos usar durante toda nossa jornada onde temos no lado esquerdo temos **Dashboad**, **Local Server**, **All Servers** e o **File and Storage Services** que:
 
 - Em **Dashboad** você pode ver o status geral do seu servidor de forma resumida.
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/149672ab-9e6a-432b-a3cd-915bc5c5b66c)
 
-- No **Local Server** é onde vemos todas as informações do servidor.
+- Em **Local Server** é onde vemos varias as informações do servidor, como nome, data e hora, atualizações, firewall entre outras.
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/eec62fe0-6881-4928-9635-50904022fbd0)
 
@@ -165,7 +167,7 @@ O **Maneger** é onde podemos adicionar ou remover funções e recursos, adicion
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/78173dc3-afbf-4b67-bc0c-f43f2c5139d7)
 
-O **Tools**  é onde fica as configurações de todas as funções adicionadas no servidor.
+O **Tools** é onde fica nossas ferramentas, ou seja, as configurações de todas as funções e recursos adicionados no servidor.
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/41532634-296e-431d-86ad-eb31beeb5e95)
 
@@ -274,12 +276,14 @@ Aqui selecione a 2º opção para colocar o ip manualmente, pois não queremos q
 A configuração que fiz no meu foi a sequinte: 
 
 ```
+
 IP address: 192.168.43.227
 Subnet mask: 255.255.255.0
 Default Geteway: 192.168.43.1
 
 Preferred DNS server: 127.0.0.1
 Alternate DNS server: 1.1.1.1
+
 ```
 
 O DNS principal sendo ele mesmo é para que não tenhamos problemas futuramente e como servidor secundo coloquei o 1.1.1.1 que é o servidor DNS da Cloundflare. Após isso aperte **OK**
@@ -292,10 +296,12 @@ Aparecerá essa janela e é só aperta em **Yes**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a334ed75-4558-43eb-a52b-6a0f7eb5256b)
 
-Após isso temos nosso servidor pronto para recerber as primeiras funções.
+Após isso temos nosso servidor pronto para recerber as primeiras funções e recursos.
 
-> :warning: Sempre verifique se o Windows Defender, Windows Firewall e o IE Enhenced Security Configuration estão ativos e verifique e atualize seu servidor sempre!
+> :warning: Sempre verifique se o Windows Defender, Windows Firewall e o IE Enhenced Security Configuration se estão ativos, além disso, verifique por novas atualizações e atualize seu servidor sempre!
 
 > :warning: Nunca desative o Windows Defender e o Windows Firewall!
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/20cdfb80-f9d4-456c-9d78-493d79f32569)
+
+# 
