@@ -308,54 +308,104 @@ Após isso temos nosso servidor pronto para recerber as primeiras funções e re
 
 ## Sobre
 
-Vamos começar intalando a função ISS (*Internet Information Services*) que é nosso serviço web 
+O IIS (*Internet Information Services*) é um servidor web feito pela Microsoft para Windows. Ele fornece uma plataforma robusta e escalável para hospedar e entregar sites, serviços web, aplicativos e outros conteúdos na Internet ou em uma rede local.
+
+O FTP (*File Transfer Protocol*) é um protocolo de rede utilizado para transferir arquivos entre computadores pela rede. Ele permite a transferência eficiente de arquivos de um computador para outro, independentemente do sistema operacional em uso.
 
 ## Instalando
 
+Vamos em **Manager** e clicamos em **Add rules and features** 
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c8166010-c855-4af5-a878-174b3ec266b6)
+
+Aqui ele mostra algumas recomendações, como já fizemos tudo como recomendado vamos marcar **skip this page by default** para não aparecer novamente e apertar em **Next**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b0b3055c-ca87-44a2-a00c-41f6266b32f9)
 
+Como vamos instalar na nossa maquina local vamos apenas apertar **Next**
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f13af91a-d7b6-41e2-8937-48f4bb8959e9)
+
+Aqui você escolhe em qual servidor quer instalar, porém como só tem o nosso vamos apertar **Next**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8bbea500-b22e-40b3-8cb2-0978dbde3eae)
 
+Nessa tela é onde é listado todas as funções disponíveis para seu servidor windows, se você observar cada uma dessas funções tem uma breve descrição, como vamos instalar o **ISS** vamos marcar ele
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c98e1bc3-99e5-4901-9821-ef7606036ff2)
+
+Aqui pergunta se você quer adicionar os recursos nessesário para a função funcionar, vamos clicarem **Add features**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/93d49c23-49a9-4b8c-b035-14511d8fe9f9)
 
+Aperte em **Next**
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9ef43b34-42c1-429f-afc3-333d231ff2ca)
+
+Aqui pergunta se você quer adicionar alguma **features** no nosso caso não será nessesário, aperte em **Next**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5cdf1083-c40b-49dd-9dde-172d056f9451)
 
+Aqui é um pequeno resumo sobre o serviço e a instalação, aperte **Next**
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/279bf54f-3206-441a-86e7-b4f71a27123b)
+
+Aqui é onde vamos escolher quais recursos vamos instalar junto com nossa função, marquei as funções que iremos utilizar, é só seleciona-las e aperte **Next**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3aec99a5-6a75-4dbf-a7aa-e8bbf39d7274)
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/46b1bde2-0152-4f00-9335-7f1ec50d1348)
 
+Marque o **FTP** para ser instalado junto. Aperte **Next**
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/bfb3285d-b117-493c-b975-0a694a38350a)
+
+Agora ele mostra um resumo da sua instalação, mas antes vamos exportar nossa configuração, essa exportação é muito útil pois ela gera um relatório de tudo que foi instalado, isso é muito importante para auditoria do sistema
+
+Para isso vamos clicar em **Export Configuration Settings** 
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/557fb052-a82b-4c0a-bffc-3aa8f7d8a56e)
 
+Escolha a pasta ponha um nome para seu arquivo e clique em **Save**
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/757c2ff7-7c3d-463e-9767-686526acfd46)
+
+Agora é só apertar **Install**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/557fb052-a82b-4c0a-bffc-3aa8f7d8a56e)
+
+Após ums instantes sua função estará instalada. Após isso aperte **Close**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1b57e2cf-fb15-48cf-b62c-a75251c3d72d)
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5521b26c-1f88-453e-bf23-78d4990d4d3f)
 
-![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/95228eb2-5279-47ba-ad13-1ed989ef0f7e)
+Aqui podemos ver que a função já está funcionando, basta acessa o ip do seu servidor pelo navegador que aparecerá uma tela igual essa
 
-![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a51dc52a-a076-4fea-91b9-e14f53b1204a)
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/95228eb2-5279-47ba-ad13-1ed989ef0f7e)
 
 ##  Configurações
 
+Você pode acessar as configurações do serviço indo em **Tools** e depois procurar pelo nome do serviço que nesse caso está escrito **Internet Information Services (IIS) Manager**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a51dc52a-a076-4fea-91b9-e14f53b1204a)
+
+Aqui vamos clicar no nome do nosso servidor que está na lateral esquerda para aparecer as configurações dele
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/32c72af1-1b43-4de2-8430-be861dd57bb2)
+
+Aqui vemos todas as configurações que podemos fazer na nossa função, vemos no lado direito as opções de **restart**, **start** e **stop** da função 
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5f202dcf-32dc-41ee-9a67-95af1f527652)
 
+Clicando com o botão direito do mouse sobre o nome do nosso servidor vemos mais opções como, **Add site** e **Add FTP**
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/cf9f4581-3964-41a6-a3f5-bc0cba2f2c4a)
 
+Clicando em **Default Document** podemos ver os documentos padrão do site
+
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4be61158-2ef7-4f55-be2d-83f7a5b6e129)
+
+Aqui vemos onde fica a pasta onde o arquivo do site que é entregue pelo servidor fica que é em `C:/inetpub/wwwroot`
 
 [Mostrando pasta onde fica o site.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5a2a5a84-f24a-498d-9bcb-2f6bb3a29aa4)
