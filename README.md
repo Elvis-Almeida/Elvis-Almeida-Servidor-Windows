@@ -402,10 +402,34 @@ Clicando com o botão direito do mouse sobre o nome do nosso servidor vemos mais
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/cf9f4581-3964-41a6-a3f5-bc0cba2f2c4a)
 
-Clicando em **Default Document** podemos ver os documentos padrão do site
+Na categoria **ISS** clicando em **Default Document** podemos ver os documentos padrão do site
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4be61158-2ef7-4f55-be2d-83f7a5b6e129)
 
 Aqui vemos onde fica a pasta onde o arquivo do site que é entregue pelo servidor fica que é em `C:/inetpub/wwwroot`
 
 [Mostrando pasta onde fica o site.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5a2a5a84-f24a-498d-9bcb-2f6bb3a29aa4)
+
+Na categoria **ISS** clicando em **Authentication** podemos ver as configurações de autenticação
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ff35f8e5-96fb-4843-b920-821ff808d468)
+
+Podendo habilitar ou desabilitar caso queira clicando com o botão direito do mouse
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fc0b582b-67f2-4df2-a404-14fc644f3ab0)
+
+
+
+[Criando novo site.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/00b17e05-2e43-4e55-9c39-7f70809bf145)
+
+[criando index.html.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/35a56737-320d-4fe2-a89d-3577a0c0df70)
+
+[liberando porta no firewall.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c822124a-8b20-4c5f-b1ea-6c236bec68e0)
+
+Vemos que está tudo funcionando
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/28195c3e-4a70-457f-bfb0-5dc828e26525)
+
+Caso queira modificar as páginas de erro você pode ir na categoria **ISS** clicando em **Error pages** você pode ver onde os arquivos estão ou trocar o arquivo.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/dac8dec9-1702-492a-9a6f-275be6e7be9c)
