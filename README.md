@@ -418,11 +418,17 @@ Podendo habilitar ou desabilitar caso queira clicando com o botão direito do mo
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fc0b582b-67f2-4df2-a404-14fc644f3ab0)
 
+Vamos adicionar um novo site, para isso vamos criar um site no servidor clicando com o botão direito do mouse encima do nome do servidor e depois em Add site.
 
+> :warning: Nunca coloque uma porta já utilizada por outra função, caso contrario ira apresentar erro no seu servidor
 
 [Criando novo site.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/00b17e05-2e43-4e55-9c39-7f70809bf145)
 
+Aqui vamos criar o arquivo index.html para ser exibido no nosso novo site.
+
 [criando index.html.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/35a56737-320d-4fe2-a89d-3577a0c0df70)
+
+Aqui vamos liberar a porta 8080 como configuramos no nosso site no firewall para que máquinas externas possam acessar nosso site.
 
 [liberando porta no firewall.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c822124a-8b20-4c5f-b1ea-6c236bec68e0)
 
@@ -433,3 +439,24 @@ Vemos que está tudo funcionando
 Caso queira modificar as páginas de erro você pode ir na categoria **ISS** clicando em **Error pages** você pode ver onde os arquivos estão ou trocar o arquivo.
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/dac8dec9-1702-492a-9a6f-275be6e7be9c)
+
+Agora vamos criar um certificado ssl auto assinado.
+
+[Criando certificado auto assinado.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/538e1c7d-9030-4e0b-b936-b30166c5cb19)
+
+Após criado o certificado agora vamos adicionalo em nosso site de teste
+
+[Adicionando protocolo https no site de teste.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2aeb2208-0850-473c-8944-5c48879c3e82)
+
+Essa tela aparece por conta de o certificado ser auto assinado, como ele não é autenticado eu nenhuma certificadora o navegador considera o site como perigoso, mas basta em **Advanced** e depois em **Accept the risk and continue**
+
+![Captura de tela de 2023-05-27 21-32-39](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6e2eb8bd-a812-4172-93fc-6803c60b345e)
+
+Aqui vemos nosso site funcionando com nosso certificado SSL
+
+![Captura de tela de 2023-05-27 21-33-16](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/46ae1bcd-d157-4488-adf7-e0f52bdb04bb)
+
+Em **IP address and domain restrictions** podemos adicionar ou remover restrições por ip ou domínio.
+
+[Adicionando e removendo restrições por ip.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/606ba46e-9435-4cd1-abda-95c7b5bc1c9d)
+
