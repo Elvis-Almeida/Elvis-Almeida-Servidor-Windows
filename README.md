@@ -460,3 +460,13 @@ Em **IP address and domain restrictions** podemos adicionar ou remover restriç�
 
 [Adicionando e removendo restrições por ip.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/606ba46e-9435-4cd1-abda-95c7b5bc1c9d)
 
+# Samba
+
+## sobre 
+
+O Samba é também uma solução de compartilhamento de arquivos e também de impressoras, ele é amplamente utilizado em redes mistas com diferentes sistemas operacionais, oferecendo uma forma simples e segura de compartilhar recursos em uma rede local ou na internet.
+
+## Instalando
+
+[Instalando função samba.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/200daf0b-adb3-4a15-9b63-017d84be659d)
+
