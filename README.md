@@ -468,5 +468,21 @@ O Samba é também uma solução de compartilhamento de arquivos e também de im
 
 ## Instalando
 
+Aqui vamos instalar a função, é só seguir os passos do video que será instalado o samba corretamente.
+
+## Configurando
+
 [Instalando função samba.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/200daf0b-adb3-4a15-9b63-017d84be659d)
+
+Em tools e em **File Server Resouce Manager** vamos encontrar essa tela onde faremos todas as configurações necessárias
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/feaa4cf2-8695-4363-9e6a-9fa0920d67e5)
+
+Em **Quotas Management** e em **Quatas** você pode adicionar limites de utilização de recursos da pasta como limitar a quantidade de MB que a pasta pode conter 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/60d3f4c7-deee-4d27-959f-17205b94c55f)
+
+Em **File Screens Management** e **File Screens** você pode adicionar regras como aceitar somente um tipo de arquivo ou todos os tipos exceto um específico como **.exe**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/d2c63339-e86b-4c67-ad57-48c44505d978)
 
