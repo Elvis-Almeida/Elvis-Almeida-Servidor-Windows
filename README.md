@@ -482,7 +482,96 @@ Em **Quotas Management** e em **Quatas** você pode adicionar limites de utiliza
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/60d3f4c7-deee-4d27-959f-17205b94c55f)
 
+Em **Quatas Templates** você pode usar umas dessas configurações já prontas para usar em sua pasta compartilhada
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/75a42b9a-8bbd-48bc-8791-84097da3a2c5)
+
+
 Em **File Screens Management** e **File Screens** você pode adicionar regras como aceitar somente um tipo de arquivo ou todos os tipos exceto um específico como **.exe**
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/d2c63339-e86b-4c67-ad57-48c44505d978)
 
+Em **File Screens Templates** você pode usar umas dessas configurações prontas, e caso queira criar sua própria configuração você pode clicar com o botao direito do mouse e depois em **Create File Screen Template** e criar sua configuração. 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f018b6db-169a-4459-839b-040c941ca7b7)
+
+Agora em **Reports Storage Management** é onde configuramos os relatórios que nosso servidor irá gera sobre tudo que está acontecendo no servidor, é muito importante para auditoria caso haja algum problema. 
+
+Algumas das configurações disponíveis:
+> Configurar o local de armazenamento dos relatórios: Você pode especificar o local onde os relatórios serão armazenados. Pode ser um caminho local ou um caminho de rede compartilhado.
+
+> Agendamento de relatórios: É possível configurar agendamentos para a geração automática de relatórios sobre o uso e as cotas de arquivos. Esses relatórios podem ser executados periodicamente conforme a configuração definida.
+
+> Configurar notificações: É possível configurar notificações por email para alertar os administradores sobre eventos específicos relacionados ao uso e às cotas de arquivos. Por exemplo, você pode ser notificado quando uma cota de arquivo atingir um determinado limite.
+
+> Personalização de relatórios: O Gerenciador de Recursos de Servidor de Arquivos oferece opções para personalizar os relatórios gerados. É possível selecionar os tipos de relatórios a serem gerados, especificar os dados a serem incluídos nos relatórios e personalizar o formato dos relatórios.
+
+[Reports Tasks.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/587aef6c-cfb4-4812-85a1-6bdfe5862829)
+
+E em **File Management Tasks** podemos ver todas as atividades que estão acontecendo agora, como não tem niguém usando meu servidor agora ele está vazio.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f8cc2ec8-20f1-42a2-a7b9-c7eae83daf23)
+
+Agora vamos voltar para o gerenciador do servidor e em **File and Storage Service > Shares** vamos criar nossa pasta compartilhada. no meu já existe algumas pastas compartilhadas mas no seu estará vazio. Para iniciarmos o assistente clicamos com o botão direito do mouse e depois em **New shere**.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/72aa203a-6c75-4360-9433-96a9f71534d2)
+  
+Nessa parte vamos escolher **SMB Shere - Advanced** para termos acesso a todas as configurações.
+
+![Captura de tela de 2023-06-17 18-34-33](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4e943812-1ae0-42c3-8b6f-d21c4017990a)
+
+Nessa tela é onde vamos escolher qual pasta vamos compartilhar, vamos selecionar **Type a custom path** para selecionarmos uma pasta personalizada e logo após clicamos em **Browser**. 
+
+![Captura de tela de 2023-06-17 18-35-10](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6ceeb839-2fed-4847-bdab-b44ed2e3365e)
+
+Agora vou criar uma pasta na raiz do sistema com o nome **COMPARTILHAMENTO** clicado em **New Folder** e depois vamos clicar em **Select Folder** para selecionar a pasta. 
+
+![Captura de tela de 2023-06-17 18-35-50](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a87f4d3d-a491-4b5d-a196-92792b20c717)
+
+Agora é só apertar em **Next**
+
+![Captura de tela de 2023-06-17 18-35-59](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/02ce2425-c637-40e9-805b-e08293e7f437)
+
+Aqui não alteramos nada, se quiser pode colocar uma descrição para a pasta.
+
+![Captura de tela de 2023-06-17 18-36-27](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f1a380fe-0462-4714-96ee-57c525b8df3f)
+
+Aqui nessa parte temos as seguintes opções:
+
+> Enable Access-based Enumeration (Habilitar Enumeração Baseada em Acesso): Essa opção permite controlar a visibilidade dos arquivos e pastas compartilhados com base nas permissões de acesso dos usuários. Quando habilitada, apenas os itens para os quais o usuário tem permissão serão visíveis ao navegar pelo compartilhamento.
+
+> Allow caching of share (Permitir o cache do compartilhamento) permite que os arquivos do compartilhamento sejam armazenados em cache nos clientes que acessam o compartilhamento. O objetivo dessa opção é melhorar o desempenho e a velocidade de acesso aos arquivos, especialmente em cenários em que há muitos acessos aos mesmos arquivos repetidamente.
+
+> Encrypt Data Access (Acesso de Dados Criptografado): Quando habilitada, essa opção aplica criptografia aos dados que estão sendo acessados no compartilhamento de pasta. Isso ajuda a proteger a confidencialidade dos dados durante a transmissão pela rede.
+
+Iremos deixar todas essas opções ativas.
+
+![Captura de tela de 2023-06-17 18-36-38](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/e6a5dd99-3bd4-4774-9cf7-e185911fb66c)
+
+Aqui vamos personalizar as permissões de usuário, para isso vamos clicar em **Customize Permissions**.
+
+![Captura de tela de 2023-06-17 18-36-45](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3a8d0307-0f2b-4c1d-a137-eb02c72766fa)
+
+Na janela que acabou de abrir vamos apagar todas as permissões já predefinidas clicando em **Disable Inheritance** e depois em **Remove all inherited permissions from this object** para remover todas as permissões.
+
+![Captura de tela de 2023-06-17 18-36-52](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/00689041-558a-4dc8-9b75-dd737e219d33)
+
+
+
+![Captura de tela de 2023-06-17 18-37-19](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5cb2fa06-4735-4f33-bb25-eed9c0f67b50)
+
+![Captura de tela de 2023-06-17 18-38-08](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/81df4a6e-4f0f-4add-91cb-9c8f64fc617f)
+
+![Captura de tela de 2023-06-17 18-39-41](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c2e2a7de-a09c-4044-a2e4-c0721ae21e45)
+
+![Captura de tela de 2023-06-17 18-39-53](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a01ad918-b867-41cd-a6e9-a20c6866735f)
+
+![Captura de tela de 2023-06-17 18-40-30](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c09ca58b-ad07-4f06-bf05-57c0e51bbd41)
+
+![Captura de tela de 2023-06-17 18-40-45](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f3a4986d-a281-4c79-b487-577a901fa383)
+
+![Captura de tela de 2023-06-17 18-40-53](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5beb6a21-d28c-41a8-a697-51abd2d249ca)
+
+![Captura de tela de 2023-06-17 18-40-58](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0d8e90a2-2a18-40b5-bfc6-9e091dc21ff7)
+
+![Captura de tela de 2023-06-17 18-41-09](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3c1e9174-221f-4cd1-966e-6556a03b8e99)
