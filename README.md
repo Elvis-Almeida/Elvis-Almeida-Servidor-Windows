@@ -556,22 +556,60 @@ Na janela que acabou de abrir vamos apagar todas as permissões já predefinidas
 
 ![Captura de tela de 2023-06-17 18-36-52](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/00689041-558a-4dc8-9b75-dd737e219d33)
 
-
+Após removido vamos clicar em **Add > Select a principal > advanced**
 
 ![Captura de tela de 2023-06-17 18-37-19](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5cb2fa06-4735-4f33-bb25-eed9c0f67b50)
 
+Agora vamos clicar em **Find Now** e depois selecionar o tipo de usuário.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/cafa66b6-849e-4b6b-805f-c8a2e9116014)
+
+Após selecionar o tipo, vamos escolher as permissões que esse tipo de usuário terá. você pode fazer isso para quantos tipos quiser e até para usuários específicos.
+
 ![Captura de tela de 2023-06-17 18-38-08](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/81df4a6e-4f0f-4add-91cb-9c8f64fc617f)
+
+Após adicionados as permissões vamos clicar em **OK**.
 
 ![Captura de tela de 2023-06-17 18-39-41](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c2e2a7de-a09c-4044-a2e4-c0721ae21e45)
 
+Vamos para a proxima tela clicando em **Next**.
+
 ![Captura de tela de 2023-06-17 18-39-53](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a01ad918-b867-41cd-a6e9-a20c6866735f)
+
+Aqui é só apertar **Next** novamente.
 
 ![Captura de tela de 2023-06-17 18-40-30](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c09ca58b-ad07-4f06-bf05-57c0e51bbd41)
 
+Nessa tela podemos escolher as **quotas** caso você queira aplicar alguma do template é só selecionar e apertar **Next**. 
+
 ![Captura de tela de 2023-06-17 18-40-45](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f3a4986d-a281-4c79-b487-577a901fa383)
+
+Aqui ele mostra um resumo das configurações. Agora é só apertar em **Create**.
 
 ![Captura de tela de 2023-06-17 18-40-53](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5beb6a21-d28c-41a8-a697-51abd2d249ca)
 
+Aqui vemos que o compartilhamento foi criado com sucesso.
+
 ![Captura de tela de 2023-06-17 18-40-58](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0d8e90a2-2a18-40b5-bfc6-9e091dc21ff7)
 
+Aqui podemos ver que nossa pasta está sendo compartilhada.
+
 ![Captura de tela de 2023-06-17 18-41-09](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3c1e9174-221f-4cd1-966e-6556a03b8e99)
+
+# DHCP
+
+## sobre 
+
+O DHCP (Dynamic Host Configuration Protocol) é um protocolo de rede utilizado para fornecer configuração automatizada de endereços IP e outras informações de rede para dispositivos em uma rede. Ele simplifica a administração de redes, eliminando a necessidade de configurar manualmente cada dispositivo individualmente.
+
+## Instalando
+
+Instalando DHCP, após finalizar a instalação não feche pois tem uma pequena configuração que é muito importante.
+
+[Instalando DHCP1.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3ccdc85d-1a82-4d00-b62c-03638b3d0b0c)
+
+Após instalar clique em **Complete DHCP configuration** para finalizarmos a configuração, caso não seja configurado nessa etapa pode não funcionar corretamente o seu serviço de DHCP. após finalizar é só fechar.
+
+[Instalando DHCP2.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c6c98198-3d70-4f84-88ee-c24e04979f3b)
+
+## Configurando
