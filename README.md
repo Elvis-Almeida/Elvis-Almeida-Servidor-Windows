@@ -788,6 +788,141 @@ O Print and Document Services (Serviços de Impressão e Documentos) é um conju
 
 ![Captura de tela de 2023-06-01 18-17-26](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2c509d15-d678-4235-900e-bc8e4e70cafb)
 
+# Active Directory
+
+## Sobre
+
+O Active Directory é um serviço de diretório desenvolvido pela Microsoft e é uma das principais ferramentas de gerenciamento de rede em ambientes baseados no sistema operacional Windows Server. Ele fornece uma estrutura centralizada para armazenar, organizar e gerenciar informações sobre usuários, computadores, grupos e outros objetos de rede em um domínio.
+
+Alguns pontos sobre o Active Directory:
+
+> Diretório Hierárquico: O Active Directory é baseado em uma estrutura hierárquica de objetos. O objeto principal é o domínio, que é uma unidade lógica de gerenciamento de rede. Vários domínios podem ser agrupados em uma floresta, que é uma coleção de domínios conectados.
+
+> Autenticação e Autorização: O Active Directory é responsável pela autenticação e autorização dos usuários em um domínio. Ele verifica as credenciais dos usuários durante o processo de login e concede ou nega acesso com base nas permissões definidas.
+
+> Gerenciamento de Políticas: O Active Directory permite que os administradores definam e gerenciem políticas de segurança, políticas de grupo e configurações de diretiva em toda a rede. Isso ajuda a garantir consistência e conformidade nas configurações dos computadores e usuários.
+
+> Serviços de Nomes: O Active Directory fornece serviços de nomes, como o sistema de nomes DNS (Domain Name System), que permite a resolução de nomes de domínio em endereços IP e vice-versa.
+
+> Replicação de Dados: O Active Directory oferece recursos de replicação, o que significa que as informações de diretório são replicadas em vários controladores de domínio em uma rede. Isso garante a disponibilidade e a redundância dos dados.
+
+> Gerenciamento Centralizado: Com o Active Directory, é possível gerenciar centralmente usuários, grupos, computadores e outros objetos de rede. Isso simplifica as tarefas administrativas, permitindo o gerenciamento eficiente de grandes redes.
+
+> Integração com outros Serviços Microsoft: O Active Directory é amplamente integrado com outros serviços e produtos da Microsoft, como Exchange Server, SharePoint e muitos outros. Isso permite a sincronização de informações e a colaboração entre diferentes aplicativos e serviços.
+
+Essa é uma ferramenta da Microsoft que é bastante útil em ambientes corporativos por essa gama de possibilidades e funções.
+
+## Instalando
+
+![Captura de tela de 2023-06-05 23-08-03](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5ef24548-0ddc-40fd-956b-cb6ec39a74b0)
+
+![Captura de tela de 2023-06-05 23-11-46](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/feaa216e-4d49-4011-a427-31c72f389c27)
+
+![Captura de tela de 2023-06-05 23-11-53](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3ac392bf-067d-4b15-b34f-08fc0297325f)
+
+![Captura de tela de 2023-06-05 23-12-01](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c48d7059-671f-48b6-aa23-478b9215cdcf)
+
+![Captura de tela de 2023-06-05 23-12-06](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f89d10d2-3658-470d-9347-a425c1849f69)
+
+![Captura de tela de 2023-06-05 23-12-11](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4e1a44a7-dba5-4359-97fe-749db8dd8f1c)
+
+![Captura de tela de 2023-06-05 23-12-18](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/07f310d1-3f4f-4920-8d1d-67aaec01637f)
+
+![Captura de tela de 2023-06-05 23-12-24](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/319fb533-2813-474f-8dfa-0e4db7b81d37)
+
+![Captura de tela de 2023-06-05 23-12-51](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6ca05992-80fd-44d2-91f6-1c301750552e)
+
+![Captura de tela de 2023-06-05 23-13-11](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/230d62a0-426c-490a-a315-edac259bd7cf)
+
+![Captura de tela de 2023-06-05 23-13-18](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/81ddfd75-6072-4302-9cde-607c2899e4bd)
+
+![Captura de tela de 2023-06-05 23-13-58](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f2d53067-b0a0-4e65-bf42-d4891988b45b)
+
+![Captura de tela de 2023-06-05 23-17-56](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5801e5fd-0bb1-4419-aa81-1cf557213178)
+
+![Captura de tela de 2023-06-05 23-18-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4274e3dd-fcee-48f6-9e4d-70e69919af46)
+
+![Captura de tela de 2023-06-05 23-18-27](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/429111fb-f931-4f2f-b785-983bc24a3681)
+
+![Captura de tela de 2023-06-05 23-18-42](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2d45de0f-47de-4ed6-8103-0277f5be7c70)
+
+![Captura de tela de 2023-06-05 23-19-09](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/301bfd66-2e60-4c5e-8da4-f6a87cf75017)
+
+![Captura de tela de 2023-06-05 23-19-28](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2e2c3aff-f154-4254-a08b-8018dd507b21)
+
+![Captura de tela de 2023-06-05 23-20-11](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ddaf1221-ea36-474c-9f9b-dcdda91c885b)
+
+![Captura de tela de 2023-06-05 23-20-24](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/89ac03af-8bce-40eb-a1be-6ddb0aff5ed1)
+
+![Captura de tela de 2023-06-05 23-21-46](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4c53943c-3573-4f3e-848e-80ab0370072f)
+
+![Captura de tela de 2023-06-05 23-29-03](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b0dc3d91-80c4-486c-8862-519c9bff4daa)
+
+## Configurando 
+
+![Captura de tela de 2023-06-05 23-29-51](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fbddd6b2-d571-4237-a1ac-389c2e37fb74)
+
+![Captura de tela de 2023-06-05 23-29-59](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6805bda0-1ced-43cd-b0b5-9f8dbf26908b)
+
+![Captura de tela de 2023-06-05 23-30-28](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8c500a5a-5a2f-4567-b4ea-822ef754322b)
+
+![Captura de tela de 2023-06-05 23-30-43](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9fd35463-bccf-43fd-ad33-69426337540f)
+
+![Captura de tela de 2023-06-05 23-31-54](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f9d82c7b-e021-4a30-b2ce-b7fbe8e70c4e)
+
+![Captura de tela de 2023-06-05 23-32-51](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/755c17f9-6ad7-4fda-b2af-3a524017063f)
+
+![Captura de tela de 2023-06-05 23-33-33](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/72df926b-61bb-43a2-91d4-bd2dc3d19af5)
+
+![Captura de tela de 2023-06-05 23-34-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a2e5c041-be6a-4f08-b18a-13658ba6a055)
+
+![Captura de tela de 2023-06-05 23-34-15](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/85826b34-5cfd-4a56-b1cf-3a8d1e223cc4)
+
+![Captura de tela de 2023-06-05 23-35-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a5190f75-9729-4cc1-8a48-b1afdd29e847)
+
+![Captura de tela de 2023-06-05 23-35-28](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3d8cdd90-c2cd-40b5-9861-54311b59215c)
+
+![Captura de tela de 2023-06-05 23-36-28](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/edf70520-0524-47f2-9a66-3c92308090b5)
+
+![Captura de tela de 2023-06-05 23-37-04](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/aa726ff5-43f2-44b8-91ce-9fb675436d2f)
+
+![Captura de tela de 2023-06-05 23-37-31](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9f691f5c-4b7f-483e-861b-e7289e1b8618)
+
+![Captura de tela de 2023-06-05 23-39-37](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1b058e62-472d-43f4-aa8b-25d6d9606470)
+
+![Captura de tela de 2023-06-05 23-39-43](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/963c4e17-a79c-449a-bc05-367ffbb2ee70)
+
+![Captura de tela de 2023-06-06 16-26-39](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c8039e63-1598-4fe8-87b7-a918736c1461)
+
+![Captura de tela de 2023-06-06 16-27-40](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8e972233-d069-4dd8-8f19-73bc27f7555f)
+
+![Captura de tela de 2023-06-06 16-35-13](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/25d808c7-5efe-4c16-81dd-cd03092325e4)
+
+![Captura de tela de 2023-06-06 16-36-03](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/63739e51-3ef4-4978-a547-0a2283a76eda)
+
+![Captura de tela de 2023-06-06 16-36-21](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6b9e9812-a5ab-41cf-b673-fd7b1a618086)
+
+![Captura de tela de 2023-06-06 16-38-02](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/55cd47bf-44b1-4acd-81e0-5447b8492249)
+
+![Captura de tela de 2023-06-06 16-40-55](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/383c1b54-6617-41da-8d88-f5ee813404ff)
+
+![Captura de tela de 2023-06-06 16-42-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/46906208-0b82-4008-aea4-6601df273e99)
+
+![Captura de tela de 2023-06-06 16-48-54](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b2d72199-70a8-42fa-a918-c956a3976f57)
+
+![Captura de tela de 2023-06-06 16-50-54](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fee51e8b-bc9a-414f-bcd4-c9cc12302b49)
+
+![Captura de tela de 2023-06-06 16-51-01](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/186eef6b-4cdc-4c13-9509-93670fd06b1b)
+
+![Captura de tela de 2023-06-06 16-51-14](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/feeb7ea6-3c1a-4eb4-b5ea-8e06b1934c09)
+
+![Captura de tela de 2023-06-06 16-51-20](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8d425707-b631-47e6-aecc-694dd5368b91)
+
+![Captura de tela de 2023-06-11 10-49-01](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1e55b5ba-f827-42e5-96c6-024403293e8a)
+
+![Captura de tela de 2023-06-11 10-49-18](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/295cf656-4ef9-4b21-a319-dfd637a3dd71)
+
+![Captura de tela de 2023-06-11 10-49-24](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/eb43f797-9dcf-488e-be6d-e5202c425e7e)
 
 
 
