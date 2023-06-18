@@ -608,8 +608,88 @@ Instalando DHCP, após finalizar a instalação não feche pois tem uma pequena 
 
 [Instalando DHCP1.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3ccdc85d-1a82-4d00-b62c-03638b3d0b0c)
 
-Após instalar clique em **Complete DHCP configuration** para finalizarmos a configuração, caso não seja configurado nessa etapa pode não funcionar corretamente o seu serviço de DHCP. após finalizar é só fechar.
+Após instalar clique em **Complete DHCP configuration** para finalizarmos a configuração, caso não seja configurado nessa etapa pode não funcionar corretamente o seu serviço de DHCP. Após finalizar é só fechar.
 
 [Instalando DHCP2.webm](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c6c98198-3d70-4f84-88ee-c24e04979f3b)
 
 ## Configurando
+
+Em **Tools > DHCP** vamos chegar nessa tela onde faremos nossas configurações de **DHCP**
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/102afd7f-a765-4456-8c07-fa3cd51a378a)
+
+Clicando com o botão direito do mouse encima de **IPV4** vamos clicar na opção **New Scope** para configurarmos nosso serviço.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/24190395-6e81-4963-9f82-d84051da8fb1)
+
+Aqui nessa tela vamos definir o nome da nossa configuração e a sua descrição 
+
+![Captura de tela de 2023-06-17 21-27-19](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4aaa1bde-5103-419e-8792-0386bbbee552)
+
+Nessa tela vamos definir a faixa de IP que o **DHCP** irá entregar para as máquinas, no meu caso eu coloquei a faixa de 20 a 254, logo abaixo vamos configurar a mascara de rede que no meu caso coloquei no tamanho **24** e com submascara de **255.255.255.0**
+
+![Captura de tela de 2023-06-17 21-28-43](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f75a1aca-1da1-46eb-b340-51eb8021c47a)
+
+Nessa parte é onde você configura uma faixa a qual deseja excluir, essa configuração é para caso você deseja excluir uma faixa de IP que fique entre a faixa que colocou anteriormente, como não é o nosso caso vamos passar para a próxima configuração.
+
+![Captura de tela de 2023-06-17 21-29-06](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/7c40fe96-5b70-4175-92d0-cfbb65fc9929)
+
+Aqui vamos configurar o tempo que uma máquina permanece com o mesmo IP que é um aspecto importante do DHCP que determina por quanto tempo um dispositivo pode usar um endereço IP atribuído pelo servidor DHCP antes de renovar a solicitação.
+
+Esse tempo é importante pois há ambientes com alta rotatividade de disposivos como shoppings que caso esse tempo seja muito alto, logo logo os IPs disponíveis acabariam fazendo com que novos dispotivos não consigam se conectar na rede. 
+
+Você já tentou se conectar em alguma redes dessas e recebeu a mensagem *"Não foi possível obter endereço IP"* isso acontece devido a esse problema, e para evitar isso devemos configurar esse tempo de forma condizente ao ambiente em que esse servidor funcionará.
+
+No nosso caso coloquei o tempo de 1 dia para renovar os IPs das máquinas.
+
+![Captura de tela de 2023-06-17 21-29-24](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/71f00279-61af-4cbc-bd2f-304f9ffb5855)
+
+Agora é apertar em **Next**
+
+![Captura de tela de 2023-06-17 21-30-01](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/61941243-2877-4ebe-8ed4-b71724c2f608)
+
+Aqui é onde definimos quem será o Geteway que as maquinas irão receber, no meu caso eu coloquei para o Gateway ser o próprio servidor.
+
+![Captura de tela de 2023-06-17 21-30-51](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/e5fb7a7c-8a18-49bf-929f-e8ca105fb1d2)
+
+Aqui é onde definimos os servidores DNS que as máquinas iram receber no meu caso coloquei para que o principal servidor seja o meu servidor e o segundo sendo o **1.1.1.3** 
+
+![Captura de tela de 2023-06-17 21-31-45](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/09b1b5de-5f0d-443c-badd-f6cd1a83264a)
+
+Aqui é só apertar **Next**.
+
+![Captura de tela de 2023-06-17 21-32-15](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/96f71f95-bdd8-461b-9136-99e64e2742c9)
+
+E **Next** novamente. 
+
+![Captura de tela de 2023-06-17 21-32-20](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c9c4b85a-67ca-4b7b-b325-181f0f7b8850)
+
+Agora é só apertar **Finish**
+
+![Captura de tela de 2023-06-17 21-32-25](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2f60c4f4-f2be-4e1c-ae0c-d9ec5b78511d)
+
+Aqui podemos ver nossa configuração criada
+
+![Captura de tela de 2023-06-17 21-32-35](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ff28cf73-8241-45d1-8f45-03a10383fdd2)
+
+Indo em nossa configuração vemos a pasta **Reservation**, clicando com o botão direito do mouse e depois em **New Reservation** podemos criar IPs reservados para máquinas especificas, como por exemplo uma impressora. 
+
+![Captura de tela de 2023-06-17 21-38-29](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5745ea62-2481-46b1-b196-b4096a9194a1)
+
+Aqui podemos ver nossa reserva criada.
+
+![Captura de tela de 2023-06-17 21-38-48](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ac992632-0c0d-49f1-8437-f6c7b7100c68)
+
+Clicando com o botão direito do mouse encima de **IPV4** vamos clicar na opção **Reconcile All Scope** depois em **Verify**, para verificarmos se nossa configuração está Ok, como podemos ver aqui está Ok. 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/df43aabd-50ef-4d32-869b-800dc639c130)
+
+Clicando com o botão direito do mouse encima de **IPV4** vamos clicar na opção **Properties** e ativar a opção de atualizar as estatisticas e vamos definir para atualizar acada 8 horas.
+
+![Captura de tela de 2023-06-17 22-21-18](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/cdb06e72-653d-401f-aa8e-5e671d23b0ed)
+
+Clicando com o botão direito do mouse encima de **IPV4** vamos clicar na opção **Display statistcs** para vermos as estatisticas do nosso DHCP.
+
+![Captura de tela de 2023-06-17 22-21-34](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c18ad142-3cf5-4f10-87aa-c1c663d601de)
+
+
