@@ -692,4 +692,102 @@ Clicando com o botão direito do mouse encima de **IPV4** vamos clicar na opçã
 
 ![Captura de tela de 2023-06-17 22-21-34](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c18ad142-3cf5-4f10-87aa-c1c663d601de)
 
+# Print Server
+
+## Sobre 
+
+O Print and Document Services (Serviços de Impressão e Documentos) é um conjunto de recursos e serviços que permitem a administração centralizada de impressoras, gerenciamento de filas de impressão e compartilhamento de documentos. Ele fornece uma infraestrutura para configurar, gerenciar e monitorar impressoras e documentos em uma rede.
+
+## Instalando
+
+![Captura de tela de 2023-06-01 17-28-04](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/caf7d346-d8aa-4fca-8edd-a39bbdbc9a9c)
+
+![Captura de tela de 2023-06-01 17-28-14](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8cbdd1c3-9736-44de-998f-b3ff251f42ec)
+
+![Captura de tela de 2023-06-01 17-28-37](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/e3cd5678-dad8-413c-a9a5-53a4dff757f0)
+
+![Captura de tela de 2023-06-01 17-39-55](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fcd769c5-bfe4-4b9c-ad48-deffefbc35af)
+
+![Captura de tela de 2023-06-01 17-40-01](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f83a5dba-f2bf-461a-9307-368ee62bb8dc)
+
+![Captura de tela de 2023-06-01 17-41-13](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5c279f64-ab1f-4618-9420-a603d937c8b9)
+
+![Captura de tela de 2023-06-01 17-41-30](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/acd5ade9-7544-4bce-99f1-c4c8c5811af3)
+
+![Captura de tela de 2023-06-01 17-41-39](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0e9e77ab-2524-4765-baf5-2da21e8392ad)
+
+![Captura de tela de 2023-06-01 17-42-20](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a12342d1-f269-4698-acdd-b71c07d6914f)
+
+![Captura de tela de 2023-06-01 17-44-03](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2b29a4b7-e14f-41ef-a1d7-2578fd260476)
+
+## Configurando
+
+![Captura de tela de 2023-06-01 17-44-55](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4078e08d-eb68-4b31-b3f2-3a1e434a3e4a)
+
+![Captura de tela de 2023-06-01 17-45-12](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/073fe9b0-bfcf-4c61-8093-5cad99989ffc)
+
+![Captura de tela de 2023-06-01 17-46-12](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c7026a0d-2c92-4826-8009-fabeee6bcea4)
+
+![Captura de tela de 2023-06-01 17-46-36](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/bc53da25-a4c9-4569-8e04-c8f4dd07d93f)
+
+![Captura de tela de 2023-06-01 17-46-52](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/57b38020-cd58-43d4-9edb-5aff134129b5)
+
+![Captura de tela de 2023-06-01 17-47-08](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5ac02049-e6e1-49a7-8603-bfda47913cc3)
+
+![Captura de tela de 2023-06-01 17-47-59](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2c768ce2-8f64-4b1f-afc3-0075da3b63c8)
+
+![Captura de tela de 2023-06-01 17-48-31](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/acc01a3b-72f9-46c6-b201-4aaa419228a1)
+
+![Captura de tela de 2023-06-01 17-49-34](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/057d5077-3ef3-45bc-9b4c-2df1b392ff89)
+
+![Captura de tela de 2023-06-01 17-49-46](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/438e67b7-5062-4e1b-ad40-1ba5d5edd58f)
+
+![Captura de tela de 2023-06-01 17-49-54](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b9acfa43-470d-4e41-bb20-1563f6970e3c)
+
+![Captura de tela de 2023-06-01 17-50-03](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/15fd398e-8569-462e-94fd-65e449a05c84)
+
+![Captura de tela de 2023-06-01 17-50-09](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/20344a74-e00f-4465-a85e-48008db28c1c)
+
+![Captura de tela de 2023-06-01 17-50-13](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0779d806-f934-4cef-a34f-b1226222a198)
+
+![Captura de tela de 2023-06-01 17-50-18](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/de63b149-f865-4d0b-ad4b-9429d48daef9)
+
+![Captura de tela de 2023-06-01 17-50-26](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fb2a55e3-910f-4b34-bd93-47b0d7643aed)
+
+![Captura de tela de 2023-06-01 17-50-32](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/53481ddd-76f1-462d-8497-69e3cd982809)
+
+![Captura de tela de 2023-06-01 17-50-56](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c75d744b-6c1b-4485-b63a-97fe022cf8f9)
+
+![Captura de tela de 2023-06-01 17-59-12](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/147f6a87-d9e6-4555-87d3-1b8a0c2be9f5)
+
+![Captura de tela de 2023-06-01 18-14-03](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/99c2963c-9d58-45d6-a085-e06f809df194)
+
+![Captura de tela de 2023-06-01 18-14-10](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8933cb90-714f-4a89-9b5c-50e8dc7f9142)
+
+![Captura de tela de 2023-06-01 18-14-16](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0709d23e-8794-48d3-b241-76ff8fc7e660)
+
+![Captura de tela de 2023-06-01 18-14-50](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/50d30937-5f53-4289-aa22-77bf6de60d06)
+
+![Captura de tela de 2023-06-01 18-14-59](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b188e037-fb2f-4200-a021-fd6a5c319c5f)
+
+![Captura de tela de 2023-06-01 18-15-44](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b04edcd3-fdd6-48d8-b7da-97f13a416d5f)
+
+![Captura de tela de 2023-06-01 18-15-49](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/37f504ca-315e-45ce-8840-102d0e4180a1)
+
+![Captura de tela de 2023-06-01 18-15-59](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/bb4b5fa1-3768-4673-98ce-4f3a92d6cc87)
+
+![Captura de tela de 2023-06-01 18-16-04](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/946eb5e3-2306-45c3-a304-416f1b86806e)
+
+![Captura de tela de 2023-06-01 18-16-34](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/e0fdfda5-bb68-49a4-beb5-875b3c3b5253)
+
+![Captura de tela de 2023-06-01 18-16-41](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9d55c7ef-eb52-4ff3-966e-f65c4a392120)
+
+![Captura de tela de 2023-06-01 18-17-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/0053224e-d987-4700-acea-3cf1118f2b7c)
+
+![Captura de tela de 2023-06-01 18-17-20](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2e0c3537-144e-447f-bca3-61797f78aa69)
+
+![Captura de tela de 2023-06-01 18-17-26](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2c509d15-d678-4235-900e-bc8e4e70cafb)
+
+
+
 
