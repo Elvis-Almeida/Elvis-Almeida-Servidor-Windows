@@ -948,45 +948,93 @@ Após ligar novamente vemos que a tela inicial mudou, e agora para você poder a
 
 ## Configurando 
 
-![Captura de tela de 2023-06-05 23-29-51](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fbddd6b2-d571-4237-a1ac-389c2e37fb74)
+Para iniciarmos nossa configuração vamos em **Tools** depois em **DNS**.
 
 ![Captura de tela de 2023-06-05 23-29-59](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6805bda0-1ced-43cd-b0b5-9f8dbf26908b)
 
+Aqui nessa tela você pode configurar seu DNS e ver as configurações pre definidas
+
 ![Captura de tela de 2023-06-05 23-30-28](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8c500a5a-5a2f-4567-b4ea-822ef754322b)
+
+Caso você queira criar uma nova configuração de DNS você pode clicar com o botão direito do mouse encima do nome de dominio que escolheu e aparecerá varias configurações como **New Host** e **New Alias**
 
 ![Captura de tela de 2023-06-05 23-30-43](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9fd35463-bccf-43fd-ad33-69426337540f)
 
+Clicando em **New Host** temos essa janela que você pode adicionar seus host aqui, essa configuração é bastante útil caso queira que um determinado site não seja acessado, bastando colocar o ip que leve para sua propria página, por exemplo se a pessoa entrar em youtube.com ela cairia no site da empresa ao invés do youtube original.
+
 ![Captura de tela de 2023-06-05 23-31-54](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f9d82c7b-e021-4a30-b2ce-b7fbe8e70c4e)
+
+Agora vamos em **tools** depois em **Active Directory Users and Computers** 
+
+![Captura de tela de 2023-06-05 23-29-59](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6805bda0-1ced-43cd-b0b5-9f8dbf26908b)
+
+Nessa janela é onde vamos fazer toda a configuração de políticas de grupos do windows. Podemos ver na pasta **Users** varios usuários, porém não criaremos nossos usuários nessa pasta pois ficaria muito bagunçado.
 
 ![Captura de tela de 2023-06-05 23-32-51](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/755c17f9-6ad7-4fda-b2af-3a524017063f)
 
+Para resolver isso iremos encima de **IFMA.ELVIS** vamos clicar com o botão direito do mouse após vamos clicar em **New** depois em **Organizational Unit** para criarmos uma unidade organizacional como por exemplo um setor da empresa  
+
 ![Captura de tela de 2023-06-05 23-33-33](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/72df926b-61bb-43a2-91d4-bd2dc3d19af5)
+
+Aqui coloquei o nome da unidade de alunos, onde ficará separado todos os alunos, por exemplo se fosse uma escola. Também criei uma unidade para professores.
 
 ![Captura de tela de 2023-06-05 23-34-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a2e5c041-be6a-4f08-b18a-13658ba6a055)
 
+Agora clicando encima da Unidade dos professores com o botão direito do mouse depois em **User** vamos criar um novo usuário.
+
 ![Captura de tela de 2023-06-05 23-34-15](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/85826b34-5cfd-4a56-b1cf-3a8d1e223cc4)
+
+Nessa tela não tem muito segredo, você coloca o nome e sobrenome depois o usuário de login, esse nome deve ser unico e caso apareça pessoas com o mesmo nome você pode usar varias estratégias para contorna isso, como inverter o nome e sobrenome ou usar o segundo sobrenome da pessoa.
 
 ![Captura de tela de 2023-06-05 23-35-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/a5190f75-9729-4cc1-8a48-b1afdd29e847)
 
+Aqui nessa tela você coloca a senha do usuário, essa senha deve ser uma senha padrão para todo usuário novo, pois marcaremos a opção **User must change password at next logon** que é para o usuário ser obrigado a trocar a senha no próximo login e peça para ele criar uma senha que somente ele saiba, para maior segurança da empresa, e também pois cada usuário é responsável por sua conta pois tudo que ele fizer ficará resgistrado em seu nome.
+
+> :warning: Lembre que a senha deve conter os requisitos minimos de segurança que é letras maiúsculas, minúsculas e numeros! 
+
 ![Captura de tela de 2023-06-05 23-35-28](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/3d8cdd90-c2cd-40b5-9861-54311b59215c)
+
+Agora nessa tela é só finalizar clicando em **Finish**
 
 ![Captura de tela de 2023-06-05 23-36-28](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/edf70520-0524-47f2-9a66-3c92308090b5)
 
-![Captura de tela de 2023-06-05 23-37-04](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/aa726ff5-43f2-44b8-91ce-9fb675436d2f)
-
-![Captura de tela de 2023-06-05 23-37-31](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/9f691f5c-4b7f-483e-861b-e7289e1b8618)
+Após criado podemos clicar com o botão direito encima do usuário e depois em **Properties**
 
 ![Captura de tela de 2023-06-05 23-39-37](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1b058e62-472d-43f4-aa8b-25d6d9606470)
 
+Aqui vemos todas as propriedades do usuário como:
+
+> **Account:** inclui informações sobre o nome de usuário, senha, status da conta (ativa ou desativada) e opções de bloqueio de conta.
+
+> **General:** fornece detalhes gerais sobre o usuário, como nome completo, nome de usuário, descrição e foto.
+
+> **Address:** contém informações de endereço, como endereço de rua, cidade, estado, CEP, país e outras informações de contato.
+
+> **Telephones:** inclui números de telefone, como telefone residencial, telefone comercial, celular e fax.
+
+> **Organization:** fornece detalhes sobre a organização à qual o usuário pertence, incluindo nome da empresa, departamento, cargo e gerente.
+
+> **Account:** contém configurações adicionais relacionadas à conta do usuário, como a exigência de alteração de senha no próximo logon, senha nunca expira, usuário não pode alterar a senha, etc.
+
+>**Profile:** inclui informações de perfil do usuário, como pasta inicial, caminho do script de logon, unidade de mapeamento, configurações de diretiva de grupo, entre outros.
+
+> **Member Of:** mostra os grupos dos quais o usuário é membro.
+
 ![Captura de tela de 2023-06-05 23-39-43](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/963c4e17-a79c-449a-bc05-367ffbb2ee70)
 
-![Captura de tela de 2023-06-06 16-26-39](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c8039e63-1598-4fe8-87b7-a918736c1461)
+Em **Member Of** vamos confiurar as permições do nosso usuário, nesse caso criei mais um usuário para ser o administrador do servidor. Para isso vamos em **Add**
 
 ![Captura de tela de 2023-06-06 16-27-40](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8e972233-d069-4dd8-8f19-73bc27f7555f)
 
+Depois em **Advanced**
+
 ![Captura de tela de 2023-06-06 16-35-13](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/25d808c7-5efe-4c16-81dd-cd03092325e4)
 
-![Captura de tela de 2023-06-06 16-36-03](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/63739e51-3ef4-4978-a547-0a2283a76eda)
+Depois vamos clicar em **Find Now** para listar todos os tipos de usuários, depois disso é só ir selecionando quais permições quer dar a esse usuário.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/12e1841f-151d-41f6-95c2-d81f0952b90a)
+
+No meu caso escolhi essas permições pois esse usuário será o administrador, antes de fechar clique em **set primary group** para definir esse usuário como administrator de dominio, caso contrário ele não terá acesso a algumas configurações.
 
 ![Captura de tela de 2023-06-06 16-36-21](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6b9e9812-a5ab-41cf-b673-fd7b1a618086)
 
