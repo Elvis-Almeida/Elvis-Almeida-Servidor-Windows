@@ -1034,31 +1034,96 @@ Depois vamos clicar em **Find Now** para listar todos os tipos de usuários, dep
 
 ![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/12e1841f-151d-41f6-95c2-d81f0952b90a)
 
-No meu caso escolhi essas permições pois esse usuário será o administrador, antes de fechar clique em **set primary group** para definir esse usuário como administrator de dominio, caso contrário ele não terá acesso a algumas configurações.
+No meu caso escolhi essas permições pois esse usuário será o administrador, antes de fechar clique em **set primary group** para definir esse usuário como administrator de dominio, caso contrário ele não terá acesso a algumas configurações. Dessa maneira temos nosso usuário configurado.
 
 ![Captura de tela de 2023-06-06 16-36-21](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6b9e9812-a5ab-41cf-b673-fd7b1a618086)
 
+Agora vamos em **Tools** depois em Group **Group Policy Management** para configurarmos as políticas de grupos. 
+
 ![Captura de tela de 2023-06-06 16-38-02](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/55cd47bf-44b1-4acd-81e0-5447b8492249)
+
+Essa é a janela onde vamos fazer as configurações
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f6a5f2bb-f085-4580-8ff4-c5fae4566c59)
+
+Em **Domains > IFMA.ELVIS > Default Domain Policy** vamos clicar com o botão direito do mouse e logo após em **Edit** para editarmos as configurações padrão do nosso domínio.
 
 ![Captura de tela de 2023-06-06 16-40-55](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/383c1b54-6617-41da-8d88-f5ee813404ff)
 
+Aqui temos duas categorias principais que são as **Computer Configuration** e as **User Configuration** as configurações de computador elas são aplicadas para as máquinas em si, independentemente do usuário que fazer login na máquina a regra será aplicado para todos, já nas configurações de usuário, essas são aplicadas ao usuário podendo cada usuário ter regras diferentes mesmo usando o mesmo computador por exemplo.
+
+Existem muitas mas muitas configurações, podendo você deixar somente um programa disponivel para o usuário utilizar até criar configurações extremamente personalizada para cada usuário ou grupo de usuários. Dito isso vou mostrar algumas configurações que você pode criar aqui.
+
 ![Captura de tela de 2023-06-06 16-42-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/46906208-0b82-4008-aea4-6601df273e99)
 
+Em **Computer Configuration > Windows Settings > Security Settings > Acount Policy > Password Policy** Temos algumas configurações de controle de senha, sendo: 
+
+> **Enforce password history:** Determina o número de senhas anteriores que devem ser lembradas e impede que os usuários escolham uma senha que já foi usada recentemente.
+
+> **Maximum password age:** Define a duração máxima de uma senha antes que o sistema exija que o usuário a altere.
+
+> **Minimum password age:** Define a duração mínima que uma senha deve ser mantida antes que o usuário possa alterá-la novamente.
+
+> **Minimum password length:** Especifica o número mínimo de caracteres necessários para uma senha.
+
+> **Password must meet complexity requirements:** Exige que as senhas atendam a requisitos de complexidade, como a inclusão de letras maiúsculas, letras minúsculas, números e caracteres especiais.
+
+> **Store passwords using reversible encryption:** Determina se as senhas são armazenadas usando criptografia reversível. É recomendável manter essa configuração desabilitada por motivos de segurança.
+
 ![Captura de tela de 2023-06-06 16-48-54](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b2d72199-70a8-42fa-a918-c956a3976f57)
+
+Em **Password must meet complexity requirements** vamos desabilitar por exemplo, nesse caso a senha que o usuário tem que criar não precisa ter requisitos de complexibilidade podendo assim ele criar uma senha que contenha somente letras ou somente numeros
 
 ![Captura de tela de 2023-06-06 16-50-54](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/fee51e8b-bc9a-414f-bcd4-c9cc12302b49)
 
 ![Captura de tela de 2023-06-06 16-51-01](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/186eef6b-4cdc-4c13-9509-93670fd06b1b)
 
+Agora em **Minimum password length**
+
 ![Captura de tela de 2023-06-06 16-51-14](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/feeb7ea6-3c1a-4eb4-b5ea-8e06b1934c09)
+
+Vou definir que o tamanho minimo da senha seja de 4 digitos, não é recomendado mas aqui é só um exemplo
 
 ![Captura de tela de 2023-06-06 16-51-20](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/8d425707-b631-47e6-aecc-694dd5368b91)
 
+Após essa simples configuração vamos criar uma configuração específica para o grupo de usuários Alunos, para isso vamos clicar com o botão direito do mouse encima da pasta Alunos e depois clicar em **Create a GPO in this domain, and Link it here**
+
 ![Captura de tela de 2023-06-11 10-49-01](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1e55b5ba-f827-42e5-96c6-024403293e8a)
+
+Vamos definir o nome da nossa configuração
 
 ![Captura de tela de 2023-06-11 10-49-18](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/295cf656-4ef9-4b21-a319-dfd637a3dd71)
 
+E pronto, agora vamos clicar com o botão direito do mouse encima da nossa configuração recém criada para podermos editar clicando em **Edit**
+
 ![Captura de tela de 2023-06-11 10-49-24](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/eb43f797-9dcf-488e-be6d-e5202c425e7e)
 
+Indo em **Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options** encontramos varias configurações e dentre elas a **Interactive Logon: Message text for users attempting to log on** ou melhor dizendo Logon interativo: Texto da mensagem para usuários que tentam fazer logon. Essa configuração permite que você defina uma mensagem personalizada que será exibida aos usuários quando eles tentarem fazer login no sistema
 
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/1ecffbcf-914f-4475-a1ce-aa532c5f79b0)
 
+Aqui é só marcar a caixinha e escrever o texto que deseje que apareça.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/67ef0144-0243-4a33-9ad6-43d683df65bf)
+
+também podemos colocar um título a essa mensagem em **Interactive Logon: Message title for users attempting to log on**
+
+![Captura de tela de 2023-06-19 16-02-20](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/78f70d54-c2d3-44e9-b898-31b2b2ebf518)
+
+Aqui podemos ver nossas configurações criadas
+
+![Captura de tela de 2023-06-19 16-02-25](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ba5a5030-eec7-4493-94c6-7600c42809a2)
+
+Aqui está um teste dessa pequena configuração que fizemos funcionando
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/72e62cf0-5410-4263-9f75-1e2db358b86f)
+
+Aqui temos mais uma configuração de exemplo que é para definir um papel de parece para os usuários, para chegar nela você vai em **User Configuration > Policies > Administrative Templates > Desktop > Desktop** depois você clica em **Desktop Wallpaper** 
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/c84c39a5-514e-4ee2-8a19-2ef5acbc541b)
+
+Aqui você clica em **Enable** para habilitar escolhe o caminho da imagem, podendo passar um caminho remoto, e o estilo em que a imagem ficará por exemplo ao centro.
+
+![image](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f0681c24-1d4d-4a98-9b6f-72e206129cf9)
+
+Esses foram apenas algums exemplos desssa configuração, e com ela termino essa trajetória, espero que tenha gostado e caso queira ver meus projetos que fiz ou estou participando no momento é só acessar [Elvis Rodrigues Almeida](https://github.com/Elvis-Almeida)
