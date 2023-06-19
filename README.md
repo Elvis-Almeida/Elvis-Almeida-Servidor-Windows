@@ -896,35 +896,53 @@ Passo 6
 
 ![Captura de tela de 2023-06-05 23-12-24](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/319fb533-2813-474f-8dfa-0e4db7b81d37)
 
-
+Após instalado vamos clicar em **Promote this server a domain controller** caso não clique nessa configuração a função instalada não irá funcionar corretamente. 
 
 ![Captura de tela de 2023-06-05 23-12-51](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/6ca05992-80fd-44d2-91f6-1c301750552e)
 
-
+Caso tenha fechado a janela sem querer pode clicar na bandeirinha no canto superior direito que aparecerá a opção para você clicar.
 
 ![Captura de tela de 2023-06-05 23-13-11](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/230d62a0-426c-490a-a315-edac259bd7cf)
 
-![Captura de tela de 2023-06-05 23-13-18](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/81ddfd75-6072-4302-9cde-607c2899e4bd)
+Aqui vamos selecionar a opção **Add a new forest** logo abaixo é só escolher o nome do domínio que irá usar, no meu caso escolhi IFMA.ELVIS
 
 ![Captura de tela de 2023-06-05 23-13-58](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/f2d53067-b0a0-4e65-bf42-d4891988b45b)
 
+Em **Forest functional level** é reconmendado sempre deixar uma versão anterior do servidor para maior compatibilidade com os computadores que iram se conectar a ele, ja em **Domain functional level** vamos deixar a versão atual do nosso servidor, logo abeixo vamos marcar a opção do servidor de DNS e depois vamos criar a nossa senha de administrador.
+
+> :warning: Crie uma senha com letras maiúsculas e minúsculas, numeros e caracteres especiais! para maior segurança.
+
 ![Captura de tela de 2023-06-05 23-17-56](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/5801e5fd-0bb1-4419-aa81-1cf557213178)
+
+Aqui é só apertar **Next**
 
 ![Captura de tela de 2023-06-05 23-18-05](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4274e3dd-fcee-48f6-9e4d-70e69919af46)
 
+Aqui você escolhe o nome da NetBios do servidor
+
 ![Captura de tela de 2023-06-05 23-18-27](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/429111fb-f931-4f2f-b785-983bc24a3681)
+
+Aqui vamos apertar em **Next**
 
 ![Captura de tela de 2023-06-05 23-18-42](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2d45de0f-47de-4ed6-8103-0277f5be7c70)
 
+Aqui mostra um resumo das configurações que fizemos, vamos apertar em **Next**
+
 ![Captura de tela de 2023-06-05 23-19-09](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/301bfd66-2e60-4c5e-8da4-f6a87cf75017)
 
+Aqui ele irá fazer uma análize no computador se está tudo OK esses avisos em amarelo são normais de acontecer, porém caso tenha algum aviso vermelho é por que tem algum problema crítico em seu servidor, nesse caso você teria que resolver o problema antes de continuar, ai é só apertar em **Install**.
+
 ![Captura de tela de 2023-06-05 23-19-28](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/2e2c3aff-f154-4254-a08b-8018dd507b21)
+
+Após a instalação ser concluida seu computador deverá ser reiniciado.
 
 ![Captura de tela de 2023-06-05 23-20-11](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/ddaf1221-ea36-474c-9f9b-dcdda91c885b)
 
 ![Captura de tela de 2023-06-05 23-20-24](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/89ac03af-8bce-40eb-a1be-6ddb0aff5ed1)
 
 ![Captura de tela de 2023-06-05 23-21-46](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/4c53943c-3573-4f3e-848e-80ab0370072f)
+
+Após ligar novamente vemos que a tela inicial mudou, e agora para você poder acessar o servidor deverá usar a nova senha criada anteriormente.
 
 ![Captura de tela de 2023-06-05 23-29-03](https://github.com/Elvis-Almeida/Elvis-Almeida-Servidor-Windows/assets/70353348/b0dc3d91-80c4-486c-8862-519c9bff4daa)
 
